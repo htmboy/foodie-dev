@@ -1,0 +1,24 @@
+2020-03-02 22:04:01 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:04:01 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:04:01 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:04:01 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:04:01 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:04:01 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:04:11 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30014 毫秒 =====
+2020-03-02 22:04:11 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30015 毫秒 =====
+2020-03-02 22:04:11 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30005 毫秒 =====
+2020-03-02 22:04:11 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30005 毫秒 =====
+2020-03-02 22:04:11 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30005 毫秒 =====
+2020-03-02 22:04:13 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30009 毫秒 =====
+2020-03-02 22:04:31 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30009 毫秒 =====
+2020-03-02 22:04:31 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:04:31 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30006 毫秒 =====
+2020-03-02 22:04:31 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30007 毫秒 =====
+2020-03-02 22:04:31 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:04:31 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30008 毫秒 =====
+2020-03-02 22:04:31 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30021 毫秒 =====
+2020-03-02 22:04:31 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:04:31 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:04:31 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:04:31 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30006 毫秒 =====
+2020-03-02 22:04:31 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====

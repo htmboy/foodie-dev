@@ -1,0 +1,1 @@
+2020-03-10 21:00:05 WARN  PoolBase:176 - DateSourceHikariCP - Failed to validate connection com.mysql.jdbc.JDBC4Connection@2af26308 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.

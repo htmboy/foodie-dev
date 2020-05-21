@@ -1,0 +1,2 @@
+2020-03-02 23:43:52 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemById =====
+2020-03-02 23:43:57 WARN  PoolBase:176 - DateSourceHikariCP - Failed to validate connection com.mysql.jdbc.JDBC4Connection@594f2833 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.

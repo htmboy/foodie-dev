@@ -1,0 +1,2 @@
+2020-03-05 21:14:02 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.queryAll =====
+2020-03-05 21:14:02 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：141 毫秒 =====

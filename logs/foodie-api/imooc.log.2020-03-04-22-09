@@ -1,0 +1,4 @@
+2020-03-04 22:09:00 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemsBySpecIds =====
+2020-03-04 22:09:00 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-04 22:09:01 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-04 22:09:02 WARN  ServiceLogAspect:56 - > 2000 ===== 执行结束，耗时：2001 毫秒 =====

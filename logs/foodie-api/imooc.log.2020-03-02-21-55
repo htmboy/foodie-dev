@@ -1,0 +1,38 @@
+2020-03-02 21:55:00 INFO  ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 21:55:00 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-03-02 21:55:00 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-03-02 21:55:00 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-03-02 21:55:00 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2020-03-02 21:55:00 INFO  DocumentationPluginsBootstrapper:84 - Context refreshed
+2020-03-02 21:55:00 INFO  DocumentationPluginsBootstrapper:87 - Found 1 custom documentation plugin(s)
+2020-03-02 21:55:00 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2020-03-02 21:55:01 INFO  TomcatWebServer:204 - Tomcat started on port(s): 8088 (http) with context path ''
+2020-03-02 21:55:01 INFO  Application:59 - Started Application in 13.201 seconds (JVM running for 14.492)
+2020-03-02 21:55:21 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-02 21:55:21 INFO  DispatcherServlet:546 - Completed initialization in 81 ms
+2020-03-02 21:55:22 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CarouselServiceImpl.queryAll =====
+2020-03-02 21:55:22 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.queryAllRootLevelCat =====
+2020-03-02 21:55:22 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-02 21:55:24 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-02 21:55:25 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：3013 毫秒 =====
+2020-03-02 21:55:25 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：3154 毫秒 =====
+2020-03-02 21:55:25 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 21:55:26 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：318 毫秒 =====
+2020-03-02 21:55:26 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 21:55:26 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 21:55:26 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 21:55:26 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：78 毫秒 =====
+2020-03-02 21:55:26 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：214 毫秒 =====
+2020-03-02 21:55:26 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：235 毫秒 =====
+2020-03-02 21:55:29 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 21:55:29 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 21:55:29 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 21:55:29 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 21:55:29 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 21:55:29 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 21:55:29 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：101 毫秒 =====
+2020-03-02 21:55:29 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：171 毫秒 =====
+2020-03-02 21:55:29 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：167 毫秒 =====
+2020-03-02 21:55:29 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：151 毫秒 =====
+2020-03-02 21:55:29 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：164 毫秒 =====
+2020-03-02 21:55:30 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：183 毫秒 =====

@@ -1,0 +1,30 @@
+2020-03-07 00:49:33 INFO  SpringBootTestContextBootstrapper:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.test.TransTest], using SpringBootContextLoader
+2020-03-07 00:49:33 INFO  AbstractContextLoader:264 - Could not detect default resource locations for test class [com.test.TransTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-03-07 00:49:34 INFO  SpringBootTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-03-07 00:49:34 INFO  SpringBootTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3ba9ad43, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49d904ec, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@48e4374, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3d680b5a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b5d6a01, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4a22f9e2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3c419631, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@418e7838, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@61230f6a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3c130745, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@cd3fee8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e2e18f2]
+2020-03-07 00:49:34 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2020-03-07 00:49:34 INFO  TransTest:50 - Starting TransTest on htmboy-byone with PID 2827 (started by htmboy in /home/htmboy/IdeaProjects/foodie-dev/foodie-dev-api)
+2020-03-07 00:49:34 INFO  TransTest:675 - No active profile set, falling back to default profiles: default
+2020-03-07 00:49:37 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+2020-03-07 00:49:38 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$76ca8690] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-07 00:49:46 INFO  ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-07 00:49:47 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-03-07 00:49:47 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-03-07 00:49:47 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-03-07 00:49:47 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2020-03-07 00:49:47 INFO  DocumentationPluginsBootstrapper:84 - Context refreshed
+2020-03-07 00:49:47 INFO  DocumentationPluginsBootstrapper:87 - Found 1 custom documentation plugin(s)
+2020-03-07 00:49:47 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2020-03-07 00:49:48 INFO  CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2020-03-07 00:49:48 INFO  TransTest:59 - Started TransTest in 14.254 seconds (JVM running for 15.595)
+2020-03-07 00:49:48 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-07 00:49:49 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-07 00:49:49 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.TestTransServiceImpl.testPropagationTrans =====
+2020-03-07 00:49:49 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.StuServiceImpl.saveParent =====
+2020-03-07 00:49:50 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：279 毫秒 =====
+2020-03-07 00:49:50 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.StuServiceImpl.saveChildren =====
+2020-03-07 00:49:50 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：127 毫秒 =====
+2020-03-07 00:49:50 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：423 毫秒 =====
+2020-03-07 00:49:50 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-07 00:49:50 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2020-03-07 00:49:50 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.

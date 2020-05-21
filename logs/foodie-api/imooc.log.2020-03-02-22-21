@@ -1,0 +1,16 @@
+2020-03-02 22:21:09 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:21:09 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:21:10 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:21:10 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:21:10 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:21:10 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:21:14 WARN  PoolBase:176 - DateSourceHikariCP - Failed to validate connection com.mysql.jdbc.JDBC4Connection@566255cc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-03-02 22:21:14 WARN  PoolBase:176 - DateSourceHikariCP - Failed to validate connection com.mysql.jdbc.JDBC4Connection@6256de9d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-03-02 22:21:31 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：20836 毫秒 =====
+2020-03-02 22:21:31 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 22:21:31 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：21104 毫秒 =====
+2020-03-02 22:21:31 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：21291 毫秒 =====
+2020-03-02 22:21:32 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：22317 毫秒 =====
+2020-03-02 22:21:33 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：23582 毫秒 =====
+2020-03-02 22:21:33 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：23822 毫秒 =====
+2020-03-02 22:21:33 WARN  ServiceLogAspect:56 - > 2000 ===== 执行结束，耗时：2529 毫秒 =====

@@ -1,0 +1,16 @@
+2020-03-03 21:51:52 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-03 21:51:52 INFO  DispatcherServlet:546 - Completed initialization in 31 ms
+2020-03-03 21:51:52 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemById =====
+2020-03-03 21:51:52 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryPagedComments =====
+2020-03-03 21:51:52 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryCommentCounts =====
+2020-03-03 21:51:52 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-03 21:51:54 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-03 21:51:55 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：3533 毫秒 =====
+2020-03-03 21:51:56 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：3929 毫秒 =====
+2020-03-03 21:51:56 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：4119 毫秒 =====
+2020-03-03 21:51:56 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemImgList =====
+2020-03-03 21:51:57 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：751 毫秒 =====
+2020-03-03 21:51:57 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemSpecList =====
+2020-03-03 21:51:57 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：178 毫秒 =====
+2020-03-03 21:51:57 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemParam =====
+2020-03-03 21:51:57 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：90 毫秒 =====

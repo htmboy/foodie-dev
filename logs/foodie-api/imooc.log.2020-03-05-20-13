@@ -1,0 +1,4 @@
+2020-03-05 20:13:01 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.addNewUserAddress =====
+2020-03-05 20:13:02 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：451 毫秒 =====
+2020-03-05 20:13:02 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.queryAll =====
+2020-03-05 20:13:03 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：348 毫秒 =====

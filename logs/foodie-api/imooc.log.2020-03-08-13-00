@@ -1,0 +1,4 @@
+2020-03-08 13:00:00 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-08 13:00:00 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-08 13:00:00 INFO  DispatcherServlet:546 - Completed initialization in 31 ms
+2020-03-08 13:00:01 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.

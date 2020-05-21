@@ -1,0 +1,43 @@
+2020-03-03 21:54:18 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.UserServiceImpl.queryUserForLogin =====
+2020-03-03 21:54:18 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：327 毫秒 =====
+2020-03-03 21:54:18 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2020-03-03 21:54:19 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CarouselServiceImpl.queryAll =====
+2020-03-03 21:54:19 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.queryAllRootLevelCat =====
+2020-03-03 21:54:19 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：159 毫秒 =====
+2020-03-03 21:54:19 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：191 毫秒 =====
+2020-03-03 21:54:19 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-03 21:54:19 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：97 毫秒 =====
+2020-03-03 21:54:22 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-03 21:54:22 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-03 21:54:22 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-03 21:54:22 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-03 21:54:22 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-03 21:54:22 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：231 毫秒 =====
+2020-03-03 21:54:22 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：494 毫秒 =====
+2020-03-03 21:54:22 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：491 毫秒 =====
+2020-03-03 21:54:23 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：591 毫秒 =====
+2020-03-03 21:54:23 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：579 毫秒 =====
+2020-03-03 21:54:24 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemById =====
+2020-03-03 21:54:24 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryCommentCounts =====
+2020-03-03 21:54:24 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryPagedComments =====
+2020-03-03 21:54:24 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：213 毫秒 =====
+2020-03-03 21:54:24 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemImgList =====
+2020-03-03 21:54:25 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：295 毫秒 =====
+2020-03-03 21:54:25 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：190 毫秒 =====
+2020-03-03 21:54:25 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemSpecList =====
+2020-03-03 21:54:25 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：625 毫秒 =====
+2020-03-03 21:54:25 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：249 毫秒 =====
+2020-03-03 21:54:25 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemParam =====
+2020-03-03 21:54:25 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：286 毫秒 =====
+2020-03-03 21:54:30 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryPagedComments =====
+2020-03-03 21:54:30 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemById =====
+2020-03-03 21:54:30 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryCommentCounts =====
+2020-03-03 21:54:30 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：201 毫秒 =====
+2020-03-03 21:54:30 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemImgList =====
+2020-03-03 21:54:30 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：112 毫秒 =====
+2020-03-03 21:54:30 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：325 毫秒 =====
+2020-03-03 21:54:30 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemSpecList =====
+2020-03-03 21:54:30 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：322 毫秒 =====
+2020-03-03 21:54:30 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：149 毫秒 =====
+2020-03-03 21:54:30 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemParam =====
+2020-03-03 21:54:30 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：64 毫秒 =====

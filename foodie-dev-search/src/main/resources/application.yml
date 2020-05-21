@@ -1,0 +1,19 @@
+server:
+  port: 8033
+spring:
+  datasource: # 数据源的相关配置
+    type: com.zaxxer.hikari.HikariDataSource # 数据源类型：HikariCP
+    driver-class-name: com.mysql.jdbc.Driver # mysql驱动
+    url: jdbc:mysql://sql.s1166.vhostgo.com/htmboy?characterEncoding=UTF-8&useSSL=false&useUnicode=true&serverTimezone=UTC
+    username: htmboy
+    password: Htmboy8msn.com
+  redis:
+    # Redis 单机单实例
+    database: 1
+    host: 192.168.124.62
+    port: 6379
+    password: 55512345
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.124.33:9300 # ,192.168.124.54, 192.168.124.62, 192.168.124.33 连接api使用9300

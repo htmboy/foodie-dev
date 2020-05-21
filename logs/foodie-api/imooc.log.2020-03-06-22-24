@@ -1,0 +1,17 @@
+2020-03-06 22:24:30 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.queryAll =====
+2020-03-06 22:24:35 WARN  PoolBase:176 - DateSourceHikariCP - Failed to validate connection com.mysql.jdbc.JDBC4Connection@4b99b392 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-03-06 22:24:35 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：5511 毫秒 =====
+2020-03-06 22:24:37 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.queryAll =====
+2020-03-06 22:24:37 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：144 毫秒 =====
+2020-03-06 22:24:50 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.OrderServiceImpl.createOrder =====
+2020-03-06 22:24:50 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.queryUserAddress =====
+2020-03-06 22:24:50 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：72 毫秒 =====
+2020-03-06 22:24:50 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemSpecById =====
+2020-03-06 22:24:50 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：62 毫秒 =====
+2020-03-06 22:24:50 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemById =====
+2020-03-06 22:24:50 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：54 毫秒 =====
+2020-03-06 22:24:50 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemMainImgById =====
+2020-03-06 22:24:50 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：56 毫秒 =====
+2020-03-06 22:24:51 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.decreaseItemSpecStock =====
+2020-03-06 22:24:51 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：369 毫秒 =====
+2020-03-06 22:24:51 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：961 毫秒 =====

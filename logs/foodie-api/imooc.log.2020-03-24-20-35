@@ -1,0 +1,7 @@
+2020-03-24 20:35:11 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-24 20:35:11 INFO  DispatcherServlet:546 - Completed initialization in 32 ms
+2020-03-24 20:35:12 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-24 20:35:12 INFO  EpollProvider:68 - Starting without optional epoll library
+2020-03-24 20:35:12 INFO  KqueueProvider:70 - Starting without optional kqueue library
+2020-03-24 20:35:14 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-24 20:35:29 INFO  CookieUtils:210 - ========== domainName: localhost ==========

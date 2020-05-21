@@ -1,0 +1,10 @@
+2020-03-02 22:14:05 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30009 毫秒 =====
+2020-03-02 22:14:05 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30005 毫秒 =====
+2020-03-02 22:14:05 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：30006 毫秒 =====
+2020-03-02 22:14:09 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CarouselServiceImpl.queryAll =====
+2020-03-02 22:14:09 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.queryAllRootLevelCat =====
+2020-03-02 22:14:14 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：25506 毫秒 =====
+2020-03-02 22:14:15 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：6221 毫秒 =====
+2020-03-02 22:14:16 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：6579 毫秒 =====
+2020-03-02 22:14:16 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 22:14:16 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：432 毫秒 =====

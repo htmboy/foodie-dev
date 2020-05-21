@@ -1,0 +1,6 @@
+2020-03-08 18:50:00 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-08 18:50:01 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2020-03-08 18:50:39 INFO  ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2020-03-08 18:50:39 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-08 18:50:39 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2020-03-08 18:50:39 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.

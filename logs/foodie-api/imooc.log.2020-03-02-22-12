@@ -1,0 +1,18 @@
+2020-03-02 22:12:06 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CarouselServiceImpl.queryAll =====
+2020-03-02 22:12:06 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.queryAllRootLevelCat =====
+2020-03-02 22:12:06 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：150 毫秒 =====
+2020-03-02 22:12:06 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：138 毫秒 =====
+2020-03-02 22:12:07 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 22:12:07 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：157 毫秒 =====
+2020-03-02 22:12:10 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 22:12:10 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 22:12:10 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 22:12:10 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 22:12:10 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 22:12:10 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-02 22:12:10 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：159 毫秒 =====
+2020-03-02 22:12:10 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：150 毫秒 =====
+2020-03-02 22:12:10 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：201 毫秒 =====
+2020-03-02 22:12:10 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：248 毫秒 =====
+2020-03-02 22:12:10 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：257 毫秒 =====
+2020-03-02 22:12:10 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：320 毫秒 =====

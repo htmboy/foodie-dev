@@ -1,0 +1,10 @@
+2020-03-24 23:25:51 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2020-03-24 23:25:52 INFO  Application:50 - Starting Application on htmboy-byone with PID 20531 (/home/htmboy/IdeaProjects/foodie-dev/foodie-sso/target/classes started by htmboy in /home/htmboy/IdeaProjects/foodie-dev)
+2020-03-24 23:25:52 INFO  Application:679 - The following profiles are active: dev
+2020-03-24 23:25:55 INFO  RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-24 23:25:55 INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-24 23:25:55 INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 83ms. Found 0 repository interfaces.
+2020-03-24 23:25:56 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+2020-03-24 23:25:56 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$47734d0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 23:25:57 INFO  TomcatWebServer:90 - Tomcat initialized with port(s): 8090 (http)
+2020-03-24 23:25:57 INFO  ContextLoader:296 - Root WebApplicationContext: initialization completed in 4813 ms

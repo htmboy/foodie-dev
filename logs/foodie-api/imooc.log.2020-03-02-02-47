@@ -1,0 +1,11 @@
+2020-03-02 02:47:11 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-02 02:47:11 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2020-03-02 02:47:11 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.
+2020-03-02 02:47:49 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2020-03-02 02:47:50 INFO  Application:50 - Starting Application on htmboy-byone with PID 8959 (/home/htmboy/IdeaProjects/foodie-dev/foodie-dev-api/target/classes started by htmboy in /home/htmboy/IdeaProjects/foodie-dev)
+2020-03-02 02:47:50 INFO  Application:675 - No active profile set, falling back to default profiles: default
+2020-03-02 02:47:54 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+2020-03-02 02:47:54 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$82a79db6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-02 02:47:55 INFO  TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2020-03-02 02:47:56 INFO  ContextLoader:296 - Root WebApplicationContext: initialization completed in 5639 ms
+2020-03-02 02:47:59 INFO  ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'

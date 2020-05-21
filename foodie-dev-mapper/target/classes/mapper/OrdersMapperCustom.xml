@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.imooc.mapper.OrdersMapperCustom" >
+  <!--id 要和 select 标签的 resultMap 对应，type 要映射到实体类-->
+  <!--resultMap 里面的标签与对于select的字段一一对应，-->
+  <resultMap id="myOrdersVO" type="com.imooc.pojo.vo.center.MyOrdersVO">
+
+    <id column="orderId" property="orderId" />
+    <result column="createdTime" property="createdTime" />
+    <result column="payMethod" property="payMethod" />
+    <result column="realPayAmount" property="realPayAmount" />
+    <result column="postAmount" property="postAmount" />
+    <result column="orderStatus" property="orderStatus" />
+    <result column="isComment" property="isComment"/>
+
+    <!--
+      collection 标签：用于定义关联list集合类型的封装规则 属于嵌套类，对应一个实体。实体也放在 myOrdersVO 的集合属性里
+      collection 标签的 property 属性对应 被嵌套 父类的集合方法 即 myOrdersVO 的 subOrderItemList 方法
+      column：是与下面 select 查询出来的字段名一一对应
+      property：是与实体类 MySubOrderItemVO 的属性一一对应
+      select：当查询完 queryMyOrders 之后，会发现当前的 map 里面还有 subOrderItemList 属性。
+              然后会一一对应的执行 subOrderItemList 的 select 查询。select 里面填写的是查询语句的id。
+      column：传 MyOrdersVO 的 orderId 参数到 getSubItems 里面
+  -->
+
+    <collection property="subOrderItemList" select="getSubItems" column="orderId" ofType="com.imooc.pojo.vo.center.MySubOrderItemVO">
+      <result column="itemId" property="itemId" />
+      <result column="itemName" property="itemName" />
+      <result column="itemImg" property="itemImg" />
+      <result column="itemSpecId" property="itemSpecId" />
+      <result column="itemSpecName" property="itemSpecName" />
+      <result column="buyCounts" property="buyCounts" />
+      <result column="price" property="price" />
+    </collection>
+  </resultMap>
+  <!--id 必须与接口的方法相对应 parameterType 表示传进来的参数的类型-->
+  <!--select 查询出来的字段与pojo 的 MyOrdersVO 的属性一一对应-->
+  <!--resultMap 与resultMap的id对应-->
+  <select id="queryMyOrders" resultMap="myOrdersVO" parameterType="Map">
+    SELECT
+      od.id as orderId,
+      od.created_time as createdTime,
+      od.pay_method as payMethod,
+      od.real_pay_amount as realPayAmount,
+      od.post_amount as postAmount,
+      os.order_status as orderStatus,
+      od.is_comment as isComment
+    FROM
+      orders od
+    LEFT JOIN
+      order_status os
+    ON
+      od.id = os.order_id
+    WHERE
+      od.user_id = #{paramsMap.userId}
+    AND
+      od.is_delete = 0
+    <if test="paramsMap.orderStatus != null">
+      AND
+      os.order_status = #{paramsMap.orderStatus}
+    </if>
+    ORDER BY
+      od.updated_time
+    ASC
+  </select>
+
+  <!--parameterType：参数类型，即 orderId -->
+  <select id="getSubItems" parameterType="String" resultType="com.imooc.pojo.vo.center.MySubOrderItemVO">
+
+    SELECT
+      oi.item_id as itemId,
+      oi.item_name as itemName,
+      oi.item_img as itemImg,
+      oi.item_spec_name as itemSpecName,
+      oi.buy_counts as buyCounts,
+      oi.price as price
+    FROM
+      order_items oi
+    WHERE
+      oi.order_id = #{orderId}
+  </select>
+  <!--resultType="int" 返回一个结果为整数-->
+  <select id="getMyOrderStatusCounts" parameterType="Map" resultType="int">
+
+    SELECT
+      count(1)
+    FROM
+      orders o
+    LEFT JOIN
+      order_status os
+    ON
+      o.id = os.order_id
+    WHERE
+      o.user_id = #{paramsMap.userId}
+    AND
+      os.order_status = #{paramsMap.orderStatus}
+    <if test="paramsMap.isComment != null">
+      AND
+        o.is_comment = #{paramsMap.isComment}
+    </if>
+  </select>
+
+  <select id="getMyOrderTrend" parameterType="Map" resultType="com.imooc.pojo.OrderStatus">
+
+    SELECT
+      os.order_id as orderId,
+      os.order_status as orderStatus,
+      os.created_time as createdTime,
+      os.pay_time as payTime,
+      os.deliver_time as deliverTime,
+      os.success_time as successTime,
+      os.close_time as closeTime,
+      os.comment_time as commentTime
+    FROM
+      orders o
+    LEFT JOIN
+      order_status os
+    ON
+      o.id = os.order_id
+    WHERE
+      o.is_delete = 0
+    AND
+      o.user_id = #{paramsMap.userId}
+    AND
+      os.order_status
+    IN
+      (20,30,40)
+    ORDER BY
+      os.order_id
+    DESC
+  </select>
+
+  <!--使用下面这种SQL做嵌套查询的分页有bug-->
+  <select id="queryMyOrdersDoNotUseHasBug" resultMap="myOrdersVO" parameterType="Map">
+    SELECT
+      od.id as orderId,
+      od.created_time as createdTime,
+      od.pay_method as payMethod,
+      od.real_pay_amount as realPayAmount,
+      od.post_amount as postAmount,
+      os.order_status as orderStatus,
+      od.is_comment as isComment,
+      oi.item_id as itemId,
+      oi.item_name as itemName,
+      oi.item_img as itemImg,
+      oi.item_spec_name as itemSpecName,
+      oi.buy_counts as buyCounts,
+      oi.price as price
+    FROM
+      orders od
+    LEFT JOIN
+      order_status os
+    ON
+      od.id = os.order_id
+    LEFT JOIN
+      order_items oi
+    ON
+      od.id = oi.order_id
+    WHERE
+      od.user_id = #{paramsMap.userId}
+    AND
+      od.is_delete = 0
+    <if test="paramsMap.orderStatus != null">
+      AND
+        os.order_status = #{paramsMap.userStatus}
+    </if>
+    ORDER BY
+      od.updated_time
+    ASC
+  </select>
+
+</mapper>

@@ -1,0 +1,12 @@
+2020-03-01 16:53:49 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2020-03-01 16:53:50 INFO  Application:50 - Starting Application on htmboy-byone with PID 16049 (/home/htmboy/IdeaProjects/foodie-dev/foodie-dev-api/target/classes started by htmboy in /home/htmboy/IdeaProjects/foodie-dev)
+2020-03-01 16:53:50 INFO  Application:675 - No active profile set, falling back to default profiles: default
+2020-03-01 16:53:54 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+2020-03-01 16:53:55 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9428c1f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-01 16:53:56 INFO  TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2020-03-01 16:53:56 INFO  ContextLoader:296 - Root WebApplicationContext: initialization completed in 6027 ms
+2020-03-01 16:53:59 INFO  ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-01 16:53:59 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-03-01 16:53:59 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-03-01 16:53:59 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-03-01 16:53:59 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.

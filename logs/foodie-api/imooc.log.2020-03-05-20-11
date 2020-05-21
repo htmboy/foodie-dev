@@ -1,0 +1,8 @@
+2020-03-05 20:11:49 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-05 20:11:49 INFO  DispatcherServlet:546 - Completed initialization in 25 ms
+2020-03-05 20:11:50 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-05 20:11:52 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-05 20:11:52 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.addNewUserAddress =====
+2020-03-05 20:11:52 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：310 毫秒 =====
+2020-03-05 20:11:52 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.queryAll =====
+2020-03-05 20:11:52 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：66 毫秒 =====

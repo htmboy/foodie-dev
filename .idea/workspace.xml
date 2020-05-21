@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b381c5b0-5b72-4546-8646-e5b381994ac6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="foodie-dev" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YN1HA9ZjoRharSzP9TXAj2QHkW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-search/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25714287" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/foodie-sso/src/main/java" />
+      <recent name="$PROJECT_DIR$/foodie-sso/src/main" />
+      <recent name="$PROJECT_DIR$/foodie-sso/src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.es.pojo" />
+      <recent name="com.imooc.controller" />
+      <recent name="com.imooc" />
+      <recent name="" />
+      <recent name="com.imooc.pojo.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/foodie-dev-search/src/main/resources" />
+      <recent name="$PROJECT_DIR$/foodie-sso/src/main/resources" />
+      <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/utils" />
+      <recent name="$PROJECT_DIR$/foodie-dev-api/src/main/resources" />
+      <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="search" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Application (2)">
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.Application" />
+      <module name="foodie-sso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.Application" />
+      <module name="foodie-dev-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.Application" />
+      <module name="foodie-dev-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ESTest.createIndexStu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="foodie-dev-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.text" />
+      <option name="MAIN_CLASS_NAME" value="com.text.ESTest" />
+      <option name="METHOD_NAME" value="createIndexStu" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ESTest.hightStuDoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="foodie-dev-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.text" />
+      <option name="MAIN_CLASS_NAME" value="com.text.ESTest" />
+      <option name="METHOD_NAME" value="hightStuDoc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="foodie-dev [install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+                <option value="-Dmaven.test.skip=true" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application (2)" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.ESTest.hightStuDoc" />
+        <item itemvalue="JUnit.ESTest.createIndexStu" />
+        <item itemvalue="Application.Application (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b381c5b0-5b72-4546-8646-e5b381994ac6" name="Default Changelist" comment="" />
+      <created>1582768147277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582768147277</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="119" y="186" width="800" height="677" key="#Project_Structure" timestamp="1585497155863">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="119" y="186" width="800" height="677" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1585497155863" />
+    <state x="1079" y="337" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583507975241">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1079" y="337" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583507975241" />
+    <state x="332" y="238" width="554" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1585498867709">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="332" y="238" width="554" height="585" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1585498867709" />
+    <state x="24" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582984722180">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="24" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582984722180" />
+    <state x="245" y="395" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1582984725423">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="245" y="395" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.27.1920.1053@0.27.1920.1053" timestamp="1582984725423" />
+    <state x="31" y="76" width="883" height="907" key="#foodie-dev_[install]" timestamp="1585496875843">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="31" y="76" width="883" height="907" key="#foodie-dev_[install]/0.27.1920.1053@0.27.1920.1053" timestamp="1585496875843" />
+    <state x="224" y="363" width="573" height="330" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585063902111">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="224" y="363" width="573" height="330" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1920.1053@0.27.1920.1053" timestamp="1585063902111" />
+    <state x="307" y="282" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582810986943">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="307" y="282" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1582810986943" />
+    <state width="908" height="206" key="GridCell.Tab.0.bottom" timestamp="1585500189282">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="908" height="206" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585500189282" />
+    <state width="908" height="206" key="GridCell.Tab.0.center" timestamp="1585500189281">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="908" height="206" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585500189281" />
+    <state width="908" height="206" key="GridCell.Tab.0.left" timestamp="1585500189281">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="908" height="206" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585500189281" />
+    <state width="908" height="206" key="GridCell.Tab.0.right" timestamp="1585500189282">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="908" height="206" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585500189282" />
+    <state width="977" height="318" key="GridCell.Tab.1.bottom" timestamp="1585412819333">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="977" height="318" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585412819333" />
+    <state width="977" height="318" key="GridCell.Tab.1.center" timestamp="1585412819332">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="977" height="318" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585412819332" />
+    <state width="977" height="318" key="GridCell.Tab.1.left" timestamp="1585412819332">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="977" height="318" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585412819332" />
+    <state width="977" height="318" key="GridCell.Tab.1.right" timestamp="1585412819332">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="977" height="318" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585412819332" />
+    <state x="5" y="159" key="SettingsEditor" timestamp="1582768549400">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="5" y="159" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1582768549400" />
+    <state x="178" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1585408856513">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="178" y="352" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585408856513" />
+    <state x="1056" y="234" width="434" height="621" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585412372734">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1056" y="234" width="434" height="621" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1585412372734" />
+    <state x="608" y="80" width="703" height="945" key="find.popup" timestamp="1583513711270">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="608" y="80" width="703" height="945" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583513711270" />
+    <state x="0" y="308" width="992" height="615" key="new project wizard" timestamp="1585393735599">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="0" y="308" width="992" height="615" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1585393735599" />
+    <state x="624" y="252" width="672" height="680" key="run.anything.popup" timestamp="1585498499824">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="252" width="672" height="680" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1585498499824" />
+    <state x="187" y="244" width="672" height="678" key="search.everywhere.popup" timestamp="1585138802347">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="187" y="244" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1585138802347" />
+  </component>
+</project>

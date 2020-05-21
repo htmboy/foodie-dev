@@ -1,0 +1,7 @@
+2020-03-06 21:02:26 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.queryAll =====
+2020-03-06 21:02:31 WARN  PoolBase:176 - DateSourceHikariCP - Failed to validate connection com.mysql.jdbc.JDBC4Connection@7a76b672 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-03-06 21:02:34 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.queryAll =====
+2020-03-06 21:02:36 WARN  PoolBase:176 - DateSourceHikariCP - Failed to validate connection com.mysql.jdbc.JDBC4Connection@2a218ca1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-03-06 21:02:36 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：10725 毫秒 =====
+2020-03-06 21:02:39 WARN  PoolBase:176 - DateSourceHikariCP - Failed to validate connection com.mysql.jdbc.JDBC4Connection@3a13fdd3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-03-06 21:02:40 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：5223 毫秒 =====

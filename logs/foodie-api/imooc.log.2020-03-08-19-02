@@ -1,0 +1,5 @@
+2020-03-08 19:02:48 INFO  ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2020-03-08 19:02:48 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-08 19:02:48 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2020-03-08 19:02:48 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.
+2020-03-08 19:02:58 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final

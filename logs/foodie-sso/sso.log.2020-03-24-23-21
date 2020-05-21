@@ -1,0 +1,77 @@
+2020-03-24 23:21:24 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2020-03-24 23:21:25 INFO  Application:50 - Starting Application on htmboy-byone with PID 20011 (/home/htmboy/IdeaProjects/foodie-dev/foodie-sso/target/classes started by htmboy in /home/htmboy/IdeaProjects/foodie-dev)
+2020-03-24 23:21:25 INFO  Application:679 - The following profiles are active: dev
+2020-03-24 23:21:28 INFO  RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-24 23:21:28 INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-24 23:21:28 INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 62ms. Found 0 repository interfaces.
+2020-03-24 23:21:29 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+2020-03-24 23:21:29 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dce724dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 23:21:30 INFO  TomcatWebServer:90 - Tomcat initialized with port(s): 8090 (http)
+2020-03-24 23:21:31 INFO  ContextLoader:296 - Root WebApplicationContext: initialization completed in 5394 ms
+2020-03-24 23:21:35 INFO  ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-24 23:21:36 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-03-24 23:21:36 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-03-24 23:21:36 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-03-24 23:21:36 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2020-03-24 23:21:36 INFO  UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 986a7851-9e6f-498b-af54-070df24e2812
+
+2020-03-24 23:21:36 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@724bf25f, org.springframework.security.web.context.SecurityContextPersistenceFilter@631c6d11, org.springframework.security.web.header.HeaderWriterFilter@7ab802f4, org.springframework.security.web.csrf.CsrfFilter@6371cf2f, org.springframework.security.web.authentication.logout.LogoutFilter@45592af7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@27976390, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@24dd44f9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2abafa97, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@40943a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62ade015, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63f40ca0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f6cc7da, org.springframework.security.web.session.SessionManagementFilter@3b97907c, org.springframework.security.web.access.ExceptionTranslationFilter@6cbb175, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1213ffbc]
+2020-03-24 23:21:37 INFO  EpollProvider:68 - Starting without optional epoll library
+2020-03-24 23:21:37 INFO  KqueueProvider:70 - Starting without optional kqueue library
+2020-03-24 23:21:37 WARN  AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource [org/springframework/boot/autoconfigure/session/RedisSessionConfiguration$SpringBootRedisHttpSessionConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.124.62:6379
+2020-03-24 23:21:37 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-24 23:21:38 ERROR SpringApplication:858 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource [org/springframework/boot/autoconfigure/session/RedisSessionConfiguration$SpringBootRedisHttpSessionConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.124.62:6379
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.imooc.Application.main(Application.java:18)
+Caused by: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.124.62:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1111)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1084)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:866)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:341)
+	at org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration$EnableRedisKeyspaceNotificationsInitializer.afterPropertiesSet(RedisHttpSessionConfiguration.java:302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 16 more
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.124.62:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:235)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:204)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:113)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:113)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1104)
+	... 22 more
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: 拒绝连接: /192.168.124.62:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:670)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: 拒绝连接
+	... 12 more

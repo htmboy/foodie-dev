@@ -1,0 +1,6 @@
+2020-03-01 16:38:19 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-01 16:38:19 INFO  DispatcherServlet:546 - Completed initialization in 26 ms
+2020-03-01 16:38:19 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.StuServiceImpl.getStuInfo =====
+2020-03-01 16:38:19 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-01 16:38:20 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-01 16:38:20 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：1381 毫秒 =====

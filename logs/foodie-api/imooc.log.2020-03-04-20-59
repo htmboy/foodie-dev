@@ -1,0 +1,8 @@
+2020-03-04 20:59:57 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-04 20:59:57 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-04 20:59:57 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-04 20:59:57 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-04 20:59:57 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：96 毫秒 =====
+2020-03-04 20:59:57 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：131 毫秒 =====
+2020-03-04 20:59:57 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：159 毫秒 =====
+2020-03-04 20:59:57 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：139 毫秒 =====

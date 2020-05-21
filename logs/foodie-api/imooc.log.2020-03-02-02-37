@@ -1,0 +1,20 @@
+2020-03-02 02:37:10 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-02 02:37:10 INFO  DispatcherServlet:546 - Completed initialization in 36 ms
+2020-03-02 02:37:11 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CarouselServiceImpl.queryAll =====
+2020-03-02 02:37:11 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.queryAllRootLevelCat =====
+2020-03-02 02:37:11 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-02 02:37:12 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-02 02:37:12 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：1814 毫秒 =====
+2020-03-02 02:37:13 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：1957 毫秒 =====
+2020-03-02 02:37:16 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 02:37:16 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：165 毫秒 =====
+2020-03-02 02:37:17 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 02:37:18 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：151 毫秒 =====
+2020-03-02 02:37:18 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 02:37:18 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 02:37:18 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：158 毫秒 =====
+2020-03-02 02:37:18 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：142 毫秒 =====
+2020-03-02 02:37:19 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 02:37:20 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：160 毫秒 =====
+2020-03-02 02:37:22 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 02:37:22 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：144 毫秒 =====

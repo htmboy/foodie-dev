@@ -1,0 +1,25 @@
+2020-03-04 20:55:26 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-04 20:55:26 INFO  DispatcherServlet:546 - Completed initialization in 47 ms
+2020-03-04 20:55:26 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CarouselServiceImpl.queryAll =====
+2020-03-04 20:55:26 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.queryAllRootLevelCat =====
+2020-03-04 20:55:26 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-04 20:55:28 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-04 20:55:28 WARN  ServiceLogAspect:56 - > 2000 ===== 执行结束，耗时：2227 毫秒 =====
+2020-03-04 20:55:28 WARN  ServiceLogAspect:56 - > 2000 ===== 执行结束，耗时：2350 毫秒 =====
+2020-03-04 20:55:28 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-04 20:55:28 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：136 毫秒 =====
+2020-03-04 20:55:43 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.UserServiceImpl.queryUserForLogin =====
+2020-03-04 20:55:43 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：117 毫秒 =====
+2020-03-04 20:55:43 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2020-03-04 20:55:44 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CarouselServiceImpl.queryAll =====
+2020-03-04 20:55:44 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.queryAllRootLevelCat =====
+2020-03-04 20:55:44 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：104 毫秒 =====
+2020-03-04 20:55:44 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：107 毫秒 =====
+2020-03-04 20:55:44 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-04 20:55:44 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：87 毫秒 =====
+2020-03-04 20:55:44 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-04 20:55:45 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：74 毫秒 =====
+2020-03-04 20:55:46 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-04 20:55:46 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-04 20:55:46 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：102 毫秒 =====
+2020-03-04 20:55:47 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：391 毫秒 =====

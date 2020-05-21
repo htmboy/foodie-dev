@@ -1,0 +1,71 @@
+#############################################
+#
+# web 访问端口号 设定：8088
+#
+#############################################
+server:
+#  port: 8088 # 定义在挂载文件 spring active 中
+  tomcat:
+    uri-encoding: UTF-8
+  max-http-header-size: 80KB
+
+
+#############################################
+#
+# 配置子数据源信息
+# 整合 hikariCP
+#############################################
+spring:
+  profiles:
+    active: dev # 激活某一个环境 dev 开发环境
+  datasource: # 数据源的相关配置
+    type: com.zaxxer.hikari.HikariDataSource # 数据源类型：HikariCP
+    driver-class-name: com.mysql.jdbc.Driver # mysql驱动
+#    url: jdbc:mysql://sql.s1166.vhostgo.com/htmboy?characterEncoding=UTF-8&useSSL=false&useUnicode=true&serverTimezone=UTC
+#    username: htmboy
+#    password: Htmboy8msn.com
+    hikari:
+      connection-timeout: 30000 # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException, 默认：30秒
+      minimum-idle: 1 # 最小连接数 生产环境一般就是设置 5-10
+      maximum-pool-size: 5 # 最大连接数 生产环境一般就是设置20
+      auto-commit: true # 自动提交
+      idle-timeout: 600000 # 连接超时的最大时长（毫秒），超过则被释放（retired），默认10分钟
+      pool-name: DateSourceHikariCP # 连接池的名字
+      max-lifetime: 1800000 # 连接池的生命时长（毫秒），超过而且没被使用则被释放（retired），默认：30分钟
+      connection-test-query: SELECT 1
+  servlet: #注意，前面有空格，定格写将不生效
+    multipart:
+      max-file-size: 102400 # 文件上传大小限制为100k
+      max-request-size: 102400 # 请求大小限制为100k
+  #session:
+    #store-type: redis # 开启redis session 除了这里配置外还需要到Application.java 里开启RedisHttpSession
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+#############################################
+#
+# mybatis 配置
+# 整合 mybatis
+#############################################
+mybatis:
+  type-aliases-package: com.imooc.pojo # 所有POJO类所在的包路径
+  # 设定mapper映射文件。classpath指的是所有项目的resources目录。加载项目目录mapper下面的所有 *.xml
+  mapper-locations: classpath:mapper/*.xml
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 打印sql语句，生产环境不用
+
+#############################################
+#
+# mybatis mapper 配置
+# 数据库逆向生成工具
+#############################################
+mapper:
+  mappers: com.imooc.my.mapper.MyMapper
+  not-empty: false # 在进行数据库操作的时候，判断表达式 username != null, 是否追加 username != ‘’
+  identity: MYSQL
+#分页插件配置
+pagehelper:
+  helperDialect: mysql
+  supportMethodsArguments: true

@@ -1,0 +1,5 @@
+2020-03-08 11:33:15 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-08 11:33:15 INFO  DispatcherServlet:546 - Completed initialization in 15 ms
+2020-03-08 11:33:16 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-08 11:33:17 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-08 11:33:17 INFO  CookieUtils:210 - ========== domainName: localhost ==========

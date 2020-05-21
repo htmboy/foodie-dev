@@ -1,0 +1,12 @@
+2020-03-30 00:04:40 INFO  RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-30 00:04:40 INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-30 00:04:40 INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2020-03-30 00:04:40 INFO  RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-30 00:04:40 INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-30 00:04:40 INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2020-03-30 00:04:41 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+2020-03-30 00:04:47 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-03-30 00:04:47 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-03-30 00:04:47 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-03-30 00:04:47 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2020-03-30 00:04:50 INFO  TransportClientFactoryBean:88 - Adding transport node : 192.168.124.33:9300

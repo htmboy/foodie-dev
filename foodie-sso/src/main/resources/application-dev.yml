@@ -1,0 +1,30 @@
+server:
+  port: 8090
+
+spring:
+  datasource: # 数据源的相关配置
+    url: jdbc:mysql://sql.s1166.vhostgo.com/htmboy?characterEncoding=UTF-8&useSSL=false&useUnicode=true&serverTimezone=UTC
+    username: htmboy
+    password: Htmboy8msn.com
+  redis:
+    # Redis 单机单实例
+    database: 1
+    host: 192.168.124.62
+    port: 6379
+    password: 55512345
+    # Redis 哨兵模式
+    #database: 1
+    #password: 55512345
+    #sentinel:
+      #master: myMaster
+      #nodes: 192.168.1.191:26379, 192.168.1.192:26379, 192.168.1.193:26379
+    # Redis 集群模式
+    #password: 55512345
+    #cluster:
+    #nodes:
+    #- 192.168.1.191:6379
+    #- 192.168.1.192:6379
+  #- 192.168.1.193:6379
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 打印sql语句，生产环境不用

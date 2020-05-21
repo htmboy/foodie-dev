@@ -1,0 +1,31 @@
+2020-03-03 22:02:14 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-03 22:02:15 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：34764 毫秒 =====
+2020-03-03 22:02:22 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：42257 毫秒 =====
+2020-03-03 22:02:22 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemImgList =====
+2020-03-03 22:02:26 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：3756 毫秒 =====
+2020-03-03 22:02:26 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemSpecList =====
+2020-03-03 22:02:26 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：245 毫秒 =====
+2020-03-03 22:02:26 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemParam =====
+2020-03-03 22:02:27 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：1147 毫秒 =====
+2020-03-03 22:02:30 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：50195 毫秒 =====
+2020-03-03 22:02:39 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemById =====
+2020-03-03 22:02:39 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryPagedComments =====
+2020-03-03 22:02:39 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryCommentCounts =====
+2020-03-03 22:02:41 WARN  ServiceLogAspect:56 - > 2000 ===== 执行结束，耗时：2005 毫秒 =====
+2020-03-03 22:02:41 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemImgList =====
+2020-03-03 22:02:41 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：415 毫秒 =====
+2020-03-03 22:02:41 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemSpecList =====
+2020-03-03 22:02:41 WARN  ServiceLogAspect:56 - > 2000 ===== 执行结束，耗时：2423 毫秒 =====
+2020-03-03 22:02:41 WARN  ServiceLogAspect:56 - > 2000 ===== 执行结束，耗时：2537 毫秒 =====
+2020-03-03 22:02:42 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：161 毫秒 =====
+2020-03-03 22:02:42 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemParam =====
+2020-03-03 22:02:42 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：590 毫秒 =====
+2020-03-03 22:02:52 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-03 22:02:52 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-03 22:02:53 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-03 22:02:53 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2020-03-03 22:02:53 WARN  PoolBase:176 - DateSourceHikariCP - Failed to validate connection com.mysql.jdbc.JDBC4Connection@211e2db5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-03-03 22:02:53 WARN  PoolBase:176 - DateSourceHikariCP - Failed to validate connection com.mysql.jdbc.JDBC4Connection@39820e65 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-03-03 22:02:53 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.
+2020-03-03 22:02:55 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：3516 毫秒 =====
+2020-03-03 22:02:55 ERROR ServiceLogAspect:54 - > 3000 ===== 执行结束，耗时：3469 毫秒 =====

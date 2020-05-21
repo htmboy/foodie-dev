@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.text.ESTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.895 s <<< FAILURE! - in com.text.ESTest
+createIndexStu(com.text.ESTest)  Time elapsed: 0.55 s  <<< ERROR!
+org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{2m5w-PRmTCac1iVaAg54BQ}{localhost}{127.0.0.1:9300}]
+	at com.text.ESTest.createIndexStu(ESTest.java:28)
+

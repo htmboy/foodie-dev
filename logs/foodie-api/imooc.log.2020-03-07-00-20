@@ -1,0 +1,16 @@
+2020-03-07 00:20:04 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-07 00:20:04 INFO  DispatcherServlet:546 - Completed initialization in 33 ms
+2020-03-07 00:20:04 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-07 00:20:05 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-07 00:20:05 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.OrderServiceImpl.createOrder =====
+2020-03-07 00:20:05 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.queryUserAddress =====
+2020-03-07 00:20:05 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：258 毫秒 =====
+2020-03-07 00:20:05 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemSpecById =====
+2020-03-07 00:20:05 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：57 毫秒 =====
+2020-03-07 00:20:05 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemById =====
+2020-03-07 00:20:05 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：46 毫秒 =====
+2020-03-07 00:20:05 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemMainImgById =====
+2020-03-07 00:20:05 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：47 毫秒 =====
+2020-03-07 00:20:05 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.decreaseItemSpecStock =====
+2020-03-07 00:20:05 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：76 毫秒 =====
+2020-03-07 00:20:06 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：768 毫秒 =====

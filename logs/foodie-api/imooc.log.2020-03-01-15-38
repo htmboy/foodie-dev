@@ -1,0 +1,6 @@
+2020-03-01 15:38:21 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-01 15:38:21 INFO  DispatcherServlet:546 - Completed initialization in 28 ms
+2020-03-01 15:38:21 INFO  HelloController:25 - info: hello~
+2020-03-01 15:38:21 WARN  HelloController:26 - info: hello~
+2020-03-01 15:38:21 ERROR HelloController:27 - info: hello~
+2020-03-01 15:38:55 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'

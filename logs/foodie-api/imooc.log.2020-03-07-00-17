@@ -1,0 +1,21 @@
+2020-03-07 00:17:02 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemsBySpecIds =====
+2020-03-07 00:17:02 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：97 毫秒 =====
+2020-03-07 00:17:10 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.queryAll =====
+2020-03-07 00:17:10 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：95 毫秒 =====
+2020-03-07 00:17:41 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.OrderServiceImpl.createOrder =====
+2020-03-07 00:17:41 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.queryUserAddress =====
+2020-03-07 00:17:41 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：47 毫秒 =====
+2020-03-07 00:17:41 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemSpecById =====
+2020-03-07 00:17:41 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：42 毫秒 =====
+2020-03-07 00:17:41 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemById =====
+2020-03-07 00:17:41 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：44 毫秒 =====
+2020-03-07 00:17:41 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.queryItemMainImgById =====
+2020-03-07 00:17:41 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：47 毫秒 =====
+2020-03-07 00:17:41 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.decreaseItemSpecStock =====
+2020-03-07 00:17:41 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：117 毫秒 =====
+2020-03-07 00:17:41 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：567 毫秒 =====
+2020-03-07 00:17:51 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.AddressServiceImpl.queryAll =====
+2020-03-07 00:17:52 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：75 毫秒 =====
+2020-03-07 00:17:54 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-07 00:17:54 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2020-03-07 00:17:54 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.

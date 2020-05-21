@@ -1,0 +1,20 @@
+2020-03-02 21:56:16 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 21:56:18 WARN  ServiceLogAspect:56 - > 2000 ===== 执行结束，耗时：2071 毫秒 =====
+2020-03-02 21:56:54 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 21:56:54 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：116 毫秒 =====
+2020-03-02 21:56:54 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 21:56:54 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：95 毫秒 =====
+2020-03-02 21:56:55 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 21:56:55 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：149 毫秒 =====
+2020-03-02 21:56:55 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 21:56:55 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：111 毫秒 =====
+2020-03-02 21:56:55 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 21:56:55 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：98 毫秒 =====
+2020-03-02 21:56:56 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 21:56:56 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：81 毫秒 =====
+2020-03-02 21:56:56 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 21:56:56 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：87 毫秒 =====
+2020-03-02 21:56:57 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 21:56:57 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：65 毫秒 =====
+2020-03-02 21:56:57 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSubCatList =====
+2020-03-02 21:56:57 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：206 毫秒 =====

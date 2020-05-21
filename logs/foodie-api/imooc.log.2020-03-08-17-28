@@ -1,0 +1,5 @@
+2020-03-08 17:28:44 INFO  ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2020-03-08 17:28:44 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-08 17:28:56 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2020-03-08 17:28:57 INFO  Application:50 - Starting Application on htmboy-byone with PID 10822 (/home/htmboy/IdeaProjects/foodie-dev/foodie-dev-api/target/classes started by htmboy in /home/htmboy/IdeaProjects/foodie-dev)
+2020-03-08 17:28:57 INFO  Application:675 - No active profile set, falling back to default profiles: default

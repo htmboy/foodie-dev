@@ -1,0 +1,10 @@
+2020-03-22 09:24:04 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-22 09:24:04 INFO  DispatcherServlet:546 - Completed initialization in 62 ms
+2020-03-22 09:24:05 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-22 09:24:05 INFO  EpollProvider:68 - Starting without optional epoll library
+2020-03-22 09:24:05 INFO  KqueueProvider:70 - Starting without optional kqueue library
+2020-03-22 09:24:07 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-22 09:24:54 INFO  ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2020-03-22 09:24:54 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-22 09:24:55 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2020-03-22 09:24:55 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.

@@ -1,0 +1,25 @@
+2020-03-24 23:22:41 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2020-03-24 23:22:42 INFO  Application:50 - Starting Application on htmboy-byone with PID 20139 (/home/htmboy/IdeaProjects/foodie-dev/foodie-sso/target/classes started by htmboy in /home/htmboy/IdeaProjects/foodie-dev)
+2020-03-24 23:22:42 INFO  Application:679 - The following profiles are active: dev
+2020-03-24 23:22:45 INFO  RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-24 23:22:45 INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-24 23:22:45 INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 61ms. Found 0 repository interfaces.
+2020-03-24 23:22:46 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+2020-03-24 23:22:46 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d58af9b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 23:22:47 INFO  TomcatWebServer:90 - Tomcat initialized with port(s): 8090 (http)
+2020-03-24 23:22:47 INFO  ContextLoader:296 - Root WebApplicationContext: initialization completed in 4863 ms
+2020-03-24 23:22:51 INFO  ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-24 23:22:52 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-03-24 23:22:52 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-03-24 23:22:52 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-03-24 23:22:52 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2020-03-24 23:22:52 INFO  UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 793fddac-fc1c-4b25-9af4-97b21a334b09
+
+2020-03-24 23:22:53 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@373afd6c, org.springframework.security.web.context.SecurityContextPersistenceFilter@19dc0d32, org.springframework.security.web.header.HeaderWriterFilter@5e0c4f21, org.springframework.security.web.csrf.CsrfFilter@6d963d70, org.springframework.security.web.authentication.logout.LogoutFilter@794eeaf8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1f10fec6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3ca14cf4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@521441d5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@33a8c9c9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c96c85, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@184823ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@592ca48c, org.springframework.security.web.session.SessionManagementFilter@166c2c17, org.springframework.security.web.access.ExceptionTranslationFilter@42ef042a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49fdbe2b]
+2020-03-24 23:22:53 INFO  EpollProvider:68 - Starting without optional epoll library
+2020-03-24 23:22:53 INFO  KqueueProvider:70 - Starting without optional kqueue library
+2020-03-24 23:22:54 INFO  ScheduledAnnotationBeanPostProcessor:295 - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-03-24 23:22:54 INFO  TomcatWebServer:204 - Tomcat started on port(s): 8090 (http) with context path ''
+2020-03-24 23:22:54 INFO  Application:59 - Started Application in 13.218 seconds (JVM running for 14.382)

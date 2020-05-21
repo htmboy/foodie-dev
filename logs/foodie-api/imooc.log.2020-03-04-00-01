@@ -1,0 +1,8 @@
+2020-03-04 00:01:05 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.searchItems =====
+2020-03-04 00:01:05 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：214 毫秒 =====
+2020-03-04 00:01:09 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.searchItems =====
+2020-03-04 00:01:09 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：199 毫秒 =====
+2020-03-04 00:01:34 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.searchItems =====
+2020-03-04 00:01:34 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：203 毫秒 =====
+2020-03-04 00:01:55 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.ItemServiceImpl.searchItems =====
+2020-03-04 00:01:55 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：196 毫秒 =====

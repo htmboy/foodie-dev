@@ -1,0 +1,19 @@
+2020-03-06 20:52:46 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-06 20:52:46 INFO  DispatcherServlet:546 - Completed initialization in 76 ms
+2020-03-06 20:52:46 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.queryAllRootLevelCat =====
+2020-03-06 20:52:46 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CarouselServiceImpl.queryAll =====
+2020-03-06 20:52:46 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2020-03-06 20:52:48 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2020-03-06 20:52:48 WARN  ServiceLogAspect:56 - > 2000 ===== 执行结束，耗时：2565 毫秒 =====
+2020-03-06 20:52:49 WARN  ServiceLogAspect:56 - > 2000 ===== 执行结束，耗时：2629 毫秒 =====
+2020-03-06 20:52:49 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-06 20:52:49 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：104 毫秒 =====
+2020-03-06 20:52:56 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.UserServiceImpl.queryUserForLogin =====
+2020-03-06 20:52:56 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：121 毫秒 =====
+2020-03-06 20:52:56 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2020-03-06 20:52:57 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CarouselServiceImpl.queryAll =====
+2020-03-06 20:52:57 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.queryAllRootLevelCat =====
+2020-03-06 20:52:57 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：113 毫秒 =====
+2020-03-06 20:52:57 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：123 毫秒 =====
+2020-03-06 20:52:57 INFO  ServiceLogAspect:40 - ===== 开始执行 class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy =====
+2020-03-06 20:52:57 INFO  ServiceLogAspect:58 - <= 2000 ===== 执行结束，耗时：104 毫秒 =====
